@@ -365,23 +365,90 @@ footer p:nth-child(2){
 }
 
 
-@media (max-width:1200px){
+@media (max-width:1144px){
    .main{
    margin: 0 auto;
-   padding: auto;
-   display: flex;
+   height: 90%;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr;
    align-items: center;
-   justify-content: space-around;
+   justify-content: center;
     }
+
+    .main-image{
+        display:flex;
+        justify-content: center;
+        
+    }
+
+    .about-text{
+        text-align: center;
+        margin-bottom: 4rem;
+        align-content: center;
+    }
+
+    .about-text h2{
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .about-content h5{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .about-text p{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    
+    
+    } 
+   
+
+    @media (max-width:1144px) and (min-width:501px){
+    .contact-me{
+
+        align-items: center;
+         /* display: flex;
+         
+        justify-content: space-around;
+        margin: 0 auto; */
+    }
+
+    .main-image{
+           /* justify-content: center; */
+    } 
+    
+    .about-text h2{
+        /* display: flex; */
+        /* justify-content: space-around; */
+    }
+
+    .about-text h5{
+        /* display: flex; */
+        /* justify-content: space-around; */
+    }
+
+    .about-text p{
+         /* display: flex;
+        justify-content: space-around;  */
+    }
+    }
+
+
+   @media (max-width: 1200px) {
+        nav {
+                display: grid;
+                grid-template-columns: max-content;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 100vw;
    }
 
-
-
-
-
-
-
-
+   }
 
 
 
