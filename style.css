@@ -647,7 +647,10 @@ footer p:nth-child(2){
         justify-content: space-around;
         margin: 0 auto; */
     }
-
+     
+        h1{
+            font-size: 70px;
+        }
     
 
 
