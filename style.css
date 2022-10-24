@@ -155,6 +155,7 @@ h4{
 }
 
 .about-text{
+    text-align: center;
     width: 100%;
     /* height: 100vh; */
 }
