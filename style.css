@@ -13,7 +13,7 @@ body{
  
 
 .bar{
-    height: auto;
+    height: 100vh;
     width:100vw;
     background-image: url(my-picture.jpg);
     background-size: cover;
