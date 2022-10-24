@@ -284,7 +284,7 @@ h5{
 }
 
 .contact-me{
-     width: 100%;
+     width: 100vw;
      height: 100vh;
      background: #191919;
      display: flex;
@@ -323,7 +323,7 @@ h5{
 
 footer{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 400px;
     background: #101010;
     display: flex;
