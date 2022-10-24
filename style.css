@@ -17,7 +17,7 @@ body{
     width:100vw;
     background-image: url(my-picture.jpg);
     background-size: contain;
-    background-position: center;
+    background-position: contain;
 }
 
 
