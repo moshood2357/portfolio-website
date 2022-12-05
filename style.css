@@ -108,7 +108,7 @@ h4{
 }
 
 .newsletter form{
-    width:360px;
+    width:auto;
     max-width: 100%;
     position: relative;
 }
