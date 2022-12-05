@@ -15,7 +15,6 @@ body{
 .bar{
     height: 100vh;
     width:100vw;
-    overflow: hidden;
     background-image: url(my-picture.jpg);
     background-size: cover;
     background-position: contain;
@@ -496,7 +495,7 @@ footer p:nth-child(2){
             display: flex;
             justify-content: center;
             align-content:center;
-            width: 300px;
+            width:auto;
         }    
 
        nav .btn{
