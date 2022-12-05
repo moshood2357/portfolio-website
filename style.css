@@ -495,7 +495,7 @@ footer p:nth-child(2){
             display: flex;
             justify-content: center;
             align-content:center;
-            width:auto;
+            width:250px;
         }    
 
        nav .btn{
